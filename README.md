@@ -1,3 +1,5 @@
+### Flask Backend
+
 #### Test at localhost
 
 ```sh
@@ -23,3 +25,11 @@ $ heroku container:release -a <app_name> web
 ```
 
 #### Note: Do not use Alpine for docker build. Scikit-learn (joblib dependencies) will not work with Alpine.
+
+### React Frontend
+
+```sh
+$ cd frontend
+$ npm start
+
+```
