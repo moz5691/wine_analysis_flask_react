@@ -45,10 +45,8 @@ function App() {
       <form className="ui form" onSubmit={handleSubmit}>
         <div className="field">
           <br />
-          <h2>
-            Enter wine description here...(First requests may get delayed.
-            Server needs to wake up.)
-          </h2>{' '}
+          <h2>Enter wine description here...</h2>{' '}
+          <h3>(First requests may get delayed. Server needs to wake up.)</h3>
           <span>
             <p>(TFIDF & Random Forest)</p>
           </span>
